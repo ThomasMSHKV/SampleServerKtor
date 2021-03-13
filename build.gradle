@@ -43,4 +43,4 @@ jar{
     }
 }
 
-task stage(dependsOn:['bootJar'])
+task stage(dependsOn:['build', 'clean'])
